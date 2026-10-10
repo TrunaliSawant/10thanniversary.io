@@ -27,7 +27,7 @@ Preview lasts until the browser tab is closed.
 
 Everything is in `content.js`. Lines marked ✏️ are examples to replace.
 
-- **Photos:** copy into `photos/`, then set e.g. `photo: "photos/first-date.jpg"`. Empty `""` shows a soft placeholder. Resize to ~1600px wide (JPG/WebP) so it loads fast on her phone.
+- **Photos:** copy into `photos/`, then set e.g. `photo: "photos/first-date.jpg"`. Name photos in lowercase with hyphens and no spaces, emojis or `#` (GitHub is case-sensitive, and `#` breaks web addresses). Empty `""` shows a soft placeholder. Resize to ~1600px wide (JPG/WebP) so it loads fast on her phone.
 - **Video:** add `video: "photos/clip.mp4"` to any timeline item.
 - **Song:** copy into `music/`, set `song.src: "music/our-song.mp3"` and optionally `song.cover`. Until then a gentle placeholder melody plays.
 - **Quiz:** `answer` is the position of the right option, starting at 0.
